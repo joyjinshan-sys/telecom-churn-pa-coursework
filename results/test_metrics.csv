@@ -1,0 +1,2 @@
+selected_model,selected_threshold,test_accuracy,test_precision,test_recall,test_f1,test_roc_auc,test_pr_auc
+xgboost,0.34,0.591,0.5535,0.9046,0.6868,0.6913,0.678

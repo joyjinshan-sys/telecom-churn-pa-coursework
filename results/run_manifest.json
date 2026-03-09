@@ -1,0 +1,38 @@
+{
+  "run_timestamp": "2026-03-09T06:28:52",
+  "random_seed": 42,
+  "data_path": "/Users/joycai/Documents/New project/data/Telecom_customer churn.csv",
+  "data_file_md5": "bacd017dd1ad71161583e8056fd8d4f4",
+  "target_col": "churn",
+  "input_shape": [
+    100000,
+    99
+  ],
+  "split_shapes": {
+    "train": [
+      70000,
+      97
+    ],
+    "valid": [
+      15000,
+      97
+    ],
+    "test": [
+      15000,
+      97
+    ]
+  },
+  "churn_rate": {
+    "train": 0.49561428571428573,
+    "valid": 0.49566666666666664,
+    "test": 0.4956
+  },
+  "high_missing_threshold": 40.0,
+  "dropped_high_missing_cols": [
+    "numbcars"
+  ],
+  "dropped_constant_cols": [],
+  "suspect_cols_from_keyword_scan": [
+    "phones"
+  ]
+}
